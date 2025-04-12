@@ -41,3 +41,48 @@ header{
     border-left: 1px solid rgba(255, 255, 255, 0.5) ;
 
 }
+header .navbar{
+    width: 100%;
+    display: flex;
+    padding: 35px 50px;
+    justify-content: space-between;
+}
+header .navbar .logo a{
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+}
+header .navbar .menu{
+    display: flex;
+}
+header .navbar .menu li{
+    list-style: none;
+    margin: 0 6px;
+}
+header .navbar .menu a{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+header .navbar .menu a:hover{
+    color: #f2f2f2;
+}
+.navbar .buttons input{
+    color: #f2f2f2;
+    outline: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    margin: 0 8px;
+    background: linear-gradient(135deg , #F6416C 10% , #ff9a9e 100%);
+    transition: all 0.3s ease;
+}
+.navbar .buttons input:hover{
+    transform: scale(0.97);
+}
